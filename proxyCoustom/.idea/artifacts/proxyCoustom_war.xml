@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="proxyCoustom:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>proxyCoustom</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="proxyCoustom.war">
+      <element id="artifact" artifact-name="proxyCoustom:war exploded" />
+    </root>
+  </artifact>
+</component>
